@@ -1,0 +1,47 @@
+a. To find the percentage of individuals with heights between 160 cm and 180 cm, we need to calculate the z-scores for these heights and then find the area under the normal distribution curve between these z-scores.
+
+First, we calculate the z-score for 160 cm:
+z1 = (160 - mean) / standard deviation = (160 - 170) / 10 = -1
+
+Next, we calculate the z-score for 180 cm:
+z2 = (180 - mean) / standard deviation = (180 - 170) / 10 = 1
+
+Using a standard normal distribution table or a statistical software, we can find the area under the curve between -1 and 1. This represents the percentage of individuals with heights between 160 cm and 180 cm.
+------------------------------------------------------------------------------------------------------------
+b. When randomly selecting a sample of 100 individuals, the distribution of sample means will follow a normal distribution with the same mean as the population (170 cm) but with a smaller standard deviation known as the standard error of the mean. 
+
+The standard error of the mean (SE) can be calculated as:
+SE = standard deviation / sqrt(sample size)
+SE = 10 / sqrt(100) = 10 / 10 = 1
+
+To find the probability that the average height of the sample is greater than 175 cm, we need to calculate the z-score for 175 cm using the standard error of the mean.
+
+z = (sample mean - population mean) / SE = (175 - 170) / 1 = 5
+
+We can then use a standard normal distribution table or a statistical software to find the probability corresponding to a z-score of 5 or greater.
+-------------------------------------------------------------------------------------------------------------
+c. To find the z-score corresponding to a height of 185 cm, we use the formula:
+
+z = (x - mean) / standard deviation = (185 - 170) / 10 = 15 / 10 = 1.5
+-------------------------------------------------------------------------------------------------------------
+d. To find the approximate height corresponding to the threshold where 5% of the dataset has heights below that value, we need to find the z-score that corresponds to the 5th percentile (or 0.05 probability) of the normal distribution.
+
+Using a standard normal distribution table or a statistical software, we can find the z-score corresponding to the 5th percentile. Let's denote it as z_threshold.
+
+Then, we can calculate the height corresponding to the threshold as:
+
+threshold height = (z_threshold * standard deviation) + mean
+-------------------------------------------------------------------------------------------------------------
+e. The coefficient of variation (CV) is a measure of relative variability and is calculated as the ratio of the standard deviation to the mean, expressed as a percentage:
+
+CV = (standard deviation / mean) * 100
+-------------------------------------------------------------------------------------------------------------
+f. Skewness is a measure of the asymmetry of a distribution. If the skewness is approximately zero, it indicates that the distribution is roughly symmetric.
+
+Skewness can be calculated using the formula:
+
+skewness = (3 * (mean - median)) / standard deviation
+
+where mean is the mean of the dataset, median is the median of the dataset, and standard deviation is the standard deviation of the dataset.
+
+Interpreting the result depends on the actual value of the skewness. A skewness of zero suggests that the dataset is symmetric, meaning the data is evenly distributed on both sides of the mean.
